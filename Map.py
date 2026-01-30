@@ -11,7 +11,7 @@ from tqdm import tqdm
 # ---------------------------------------------------
 # CONFIG
 # ---------------------------------------------------
-COLLEGE_NAME = "Kumaraguru College of Technology, Coimbatore, India"
+COLLEGE_NAME = "Indian Institute of Technology Madras, Chennai, India"
 OSM_PBF = "data/southern-zone.osm.pbf"
 DEM_FILE = "data/srtm.tif"
 OUTPUT_DIR = "output"
@@ -20,7 +20,7 @@ GRAPH_FILE = f"{OUTPUT_DIR}/campus_graph.graphml"
 EDGE_FILE = f"{OUTPUT_DIR}/edges.csv"
 MAP_FILE = f"{OUTPUT_DIR}/campus_map.html"
 
-BUFFER_M = 350
+BUFFER_M = 1200
 
 # ---------------------------------------------------
 # UTILS
